@@ -19,7 +19,10 @@ def hpd_grid(sample, alpha=0.05, roundto=2):
 
     Returns
     ----------
-    hpd: array with the lower 
+    hpd: array with the highest density interval
+    x: array with grid points where the density was evaluated
+    y: array with the density values
+    modes: array listing the values of the modes
           
     """
     sample = np.asarray(sample)
