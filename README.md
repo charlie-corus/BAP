@@ -1,6 +1,11 @@
-# Bayesian Analysis with Python (Second edition)
+# Charlie's fork of Bayesian Analysis with Python (Second edition)
 
 This is the code repository for [Bayesian Analysis with Python](https://www.packtpub.com/big-data-and-business-intelligence/bayesian-analysis-python-second-edition), published by Packt. It contains all the code necessary to work through the book from start to finish. You can find the code from the first edition in the folder `first_edition`
+
+## Differences from the original repo
+
+I had huge problems installing as per the instructions in the book and below. There is some issue with HDF5 and Anaconda, where the required Environment variables aren't set. Instead I've created a Python 3.10 conda environment and installed the latest versions of the packages listed in `bap.yml`. This might cause problems. Let's find out!
+
 
 ## Feedback
 
